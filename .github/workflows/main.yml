@@ -6,9 +6,9 @@ on:
  workflow_dispatch: 
 
 jobs:
-CI:
-runs-on: ubuntu-latest
-steps:
+ CI:
+  runs-on: ubuntu-latest
+  steps:
  - name: Passo 01
    run: echo "Baixar a base de código"
  - name: Passo 02
