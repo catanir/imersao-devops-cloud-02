@@ -15,7 +15,6 @@ steps:
    run: echo "Criar a imagem dos Microsserviços"
  - name: Passo 03
    run: echo "Subir as imagens para o repositório de imagens docker"
-
 CD:
 runs-on: ubuntu-latest
 steps:
