@@ -2,17 +2,17 @@ name: CI-CD
 
 on:
  push:
-  braches: ["main"]
+  branches: ["main"]
  workflow_dispatch: 
 
 jobs:
- CI:
-  runs-on: ubuntu-latest
-  steps:
- - name: Passo 01
-   run: echo "Baixar a base de código"
- - name: Passo 02
-   run: echo "Criar a imagem dos Microsserviços"
- - name: Passo 03
-   run: echo "Subir as imagens para o repositório de imagens docker"
+  CI:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Passo 01
+        run: echo "Baixar a base de código"
+      - name: Passo 02
+        run: echo "Criar a imagem dos Microsserviços"
+      - name: Passo 03
+        run: echo "Subir as imagens para o repositório de imagens docker"
    
