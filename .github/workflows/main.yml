@@ -15,13 +15,4 @@ steps:
    run: echo "Criar a imagem dos Microsserviços"
  - name: Passo 03
    run: echo "Subir as imagens para o repositório de imagens docker"
-CD:
-runs-on: ubuntu-latest
-steps:
- - name: Passo 01
-   run: echo "baixar a base de código"
- - name: Passo 02
-   run: echo "Autenticar na AWS"
- - name: Passo 03
-   run: echo "deploy dos microsserviços no kubernetes"
    
